@@ -6,7 +6,7 @@ addCommandAlias("fixCheck", "scalafixAll --check")
 addCommandAlias("fixFix", "scalafixAll")
 addCommandAlias("testAll", "test;+ test")
 
-lazy val scalaVersion3   = "3.5.2"
+lazy val scalaVersion3   = "3.6.2"
 lazy val scalaVersion213 = "2.13.15"
 
 import xerial.sbt.Sonatype._
