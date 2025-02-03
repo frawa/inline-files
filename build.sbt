@@ -6,7 +6,7 @@ addCommandAlias("fixCheck", "scalafixAll --check")
 addCommandAlias("fixFix", "scalafixAll")
 addCommandAlias("testAll", "test;+ test")
 
-lazy val scalaVersion3lts = "3.3.4"
+lazy val scalaVersion3lts = "3.3.5"
 lazy val scalaVersion213  = "2.13.16"
 
 // WONTWORK:
